@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>이시명</h1>
+    <h3>이번 타이틀 곡 안무 시안, 누가 짰을까?</h3><br>
+    <h2>이미지 선택</h2><hr color="blue" size="2">
+
+    <form action="/cgi-bin/crnn.py" method="post" enctype="multipart/form-data">
+        <input type="file" name="img_file" accept="image/png, image/jpeg"><br>
+
+
+        <input type="text" name ="message" placeholder="전달메시지"><br>
+        <input type="image" src="../img/save_button.png" alt="Submit"style="width: 100px; height: 100px;"><br><br><br>
+    </form>
+
+    <h2>이미지 선택</h2><hr color="blue" size="2">
+    <form action="/cgi-bin/cnn.py" method="post" enctype="multipart/form-data">
+        <input type="file" name="img_file" accept="image/png, image/jpeg"><br>
+
+
+        <input type="text" name ="message" placeholder="전달메시지"><br>
+        <input type="image" src="../img/save_button.png" alt="Submit"style="width: 100px; height: 100px;"><br><br><br>
+    </form>
+
+
+</body>
+</html>
