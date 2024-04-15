@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICE_ML_TeamProject</title>
+</head>
+<body>
+    <h1>이승민</h1>
+    <h3>당신이 사랑하는 노래를</h3>
+    <h3>당신의 최애에게 부탁해볼까요?</h3>
+
+    <form action="../cgi-bin/process_audio.py" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>샘플(30초) 10개를 올려주세요</legend>
+            <p>
+                <label for="file1">Sample 1:</label>
+                <input type="file" id="file1" name="file1" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file2">Sample 2:</label>
+                <input type="file" id="file2" name="file2" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file3">Sample 3:</label>
+                <input type="file" id="file3" name="file3" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file4">Sample 4:</label>
+                <input type="file" id="file4" name="file4" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file5">Sample 5:</label>
+                <input type="file" id="file5" name="file5" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file6">Sample 6:</label>
+                <input type="file" id="file6" name="file6" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file7">Sample 7:</label>
+                <input type="file" id="file7" name="file7" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file8">Sample 8:</label>
+                <input type="file" id="file8" name="file8" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file9">Sample 9:</label>
+                <input type="file" id="file9" name="file9" accept="audio/*"><br>
+            </p>
+            <p>
+                <label for="file10">Sample 10:</label>
+                <input type="file" id="file10" name="file10" accept="audio/*"><br>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>최애가 부른 노래를 올려주세요</legend>
+            <p>
+                <label for="full_song">완곡 파일:</label>
+                <input type="file" id="full_song" name="full_song" accept="audio/*">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>듣고싶은 노래를 올려주세요</legend>
+            <p>
+                <label for="other_song">좋아하는 노래 파일:</label>
+                <input type="file" id="other_song" name="other_song" accept="audio/*">
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">제출</button>
+    </form>
+</body>
+</html>
+
