@@ -1,0 +1,56 @@
+**노래목록**
+
+- 1) 무키무키만만수 - 안드로메다
+- 2) renforshor - i drive me mad
+- 3) 빌리 아일리시 - listen before i go
+- 4) avril lavigne - what the hell
+- 5) 제이레빗 - happy things
+- 6) piano song
+- 7) john cash - hurt
+- 8) 떠나려하는모든이에게
+- 9) nudul - backrooms
+    - https://www.youtube.com/watch?v=K9iAGTZnOKo
+
+**mood**
+
+- angry : 1) 무키무키만만수 - 안드로메다
+- anxiety : 2) renforshor - i drive me mad
+- depressed : 3) 빌리 아일리시 - listen before i go
+- dynamic : 4) avril lavigne - what the hell
+- happy : 5) 제이레빗 - happy things
+- peaceful : 6) piano song
+- tired : 7) john cash - hurt
+- withered : 8) 떠나려하는모든이에게
+
+
+**mood - opposite**
+
+- angry : 6) piano song
+- anxiety : 5) 제이레빗 - happy things
+- depressed : 5) 제이레빗 - happy things
+- dynamic : 6) piano song
+- happy : 6) piano song
+- peaceful : 6) piano song
+- tired : 5) 제이레빗 - happy things
+- withered : 5) 제이레빗 - happy things
+
+
+**face**
+
+- angry : 무키무키만만수 - 안드로메다
+- disgust : nudul - backrooms
+- fear : renforshor - i drive me mad
+- happy : 제이레빗 - happy things
+- neutral : piano song
+- sad : 빌리 아일리시 - listen before i go
+- surprise : avril lavigne - what the hell
+
+**face - opposite**
+
+- angry : piano song
+- disgust : piano song
+- fear : piano song
+- happy : piano song
+- neutral : megan trailor - me too
+- sad : piano song
+- surprise : piano song
